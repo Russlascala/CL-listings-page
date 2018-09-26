@@ -16,14 +16,14 @@ body {
 
 
 /* ========================= Header Styles ========================= */
-.numberRight{
+.textRight{
     font-weight: bold;
     font-size: 18px;
     color: #334A51;
     text-align: center;
 }
 
-.numberRight i {
+.textRight i {
     color:#008952;
 }
 
@@ -31,7 +31,7 @@ body {
     color:#005B94;
 }
 
-.logoLeft, .numberRight{
+.logoLeft, .textRight{
     display: flex;
     justify-content: center;
     margin-top: 5px;
@@ -135,7 +135,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     .top-bar p{
         font-size: 1.2em;
     }
-    .numberRight{
+    .textRight{
         text-align: right;
     }
     .br-smart{
