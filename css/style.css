@@ -15,7 +15,9 @@ body {
 }
 
 
-/* ========================= Header Styles ========================= */
+/* ========================= Header Styles ========================= */\
+
+
 .textRight{
     font-weight: bold;
     font-size: 18px;
@@ -84,10 +86,12 @@ footer a:hover {
     background: #333333;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#333333), to(#333333), color-stop(50%, #35b5d2));
 }
+
 #footerLogo{
     display: block;
     margin: 0 auto;
     padding: 10px;
+    max-width: 300px;
 }
 
 #altLinks{
