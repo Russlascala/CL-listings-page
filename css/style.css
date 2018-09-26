@@ -1,0 +1,194 @@
+/* ========================= General Used Classes ========================= */
+/* To have a max width */
+.container-margin {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1170px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin:0; 
+}
+
+
+/* ========================= Header Styles ========================= */
+.numberRight{
+    font-weight: bold;
+    font-size: 18px;
+    color: #334A51;
+    text-align: center;
+}
+
+.numberRight i {
+    color:#008952;
+}
+
+.font-color{
+    color:#005B94;
+}
+
+.logoLeft, .numberRight{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.br-smart{
+    display: none;
+}
+
+
+/* ========================= Top Bar Styles ========================= */
+.bgColor1 {
+    background: #35b5d2;
+    margin-top: 10px;
+    width:100%;
+    color: #fff;
+}
+.top-bar h3{
+    font-size: 1.4em;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.75);
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.top-bar p{
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* ========================= footer ========================= */
+footer{
+    background-color: #333333;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+footer a{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #E6F4F1;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #81C4FD;
+}
+.lineFade{ 
+    height:1px;
+    background: #333333;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#333333), to(#333333), color-stop(50%, #35b5d2));
+}
+#footerLogo{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#altLinks{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints ** NOT using bootstrap
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+@media screen and (min-width:320px){
+    
+}
+
+/* Greater than 480 px */
+@media screen and (min-width:480px){
+    /* ========================= Header Styles ========================= */
+    .container-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top-bar h3{
+        font-size: 1.5em;
+    }
+    .top-bar p{
+        font-size: 1.2em;
+    }
+    .numberRight{
+        text-align: right;
+    }
+    .br-smart{
+        display: none;
+    }
+    
+   
+
+}
+ 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) { 
+    /* ========================= Header Styles ========================= */
+    .container-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .br-smart{
+        display: block;
+    }
+   
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    
+    .top-bar h3{
+        font-size: 1.75em;
+    }
+    .top-bar p{
+        font-size: 1.5em;
+    }
+    
+
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .br-smart{
+        display: none;
+    }
+}
+
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+
+}
+ 
+ 
+
+
+
